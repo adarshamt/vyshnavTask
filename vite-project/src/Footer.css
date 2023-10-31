@@ -17,13 +17,12 @@
     height: 196px;
     display: flex;
     column-gap: 20px;
+    padding: 0 1rem;
 
-
-    /* background-color: aqua; */
 
 }
 .f1{
-    width: 200px;
+    width: 190px;
     height: 196px;
    
     display: flex;
@@ -37,8 +36,8 @@
 }
 .content{
     height: 32px;
-    
-    
+    font-family: 'roboto';
+    font-weight: 100;
     font-size: 12px;
     line-height: 16px;
 }
@@ -90,27 +89,32 @@
     font-weight: 600;
     font-size: 12px;
     line-height: 12px;
-    font-family: "Roboto,sans-serif";
+    font-family:'roboto';
+    font-weight: 100;
 }
-.company ul{
+.f2 ul{
     display: flex;
-    background-color: #F01C21;
-    height: 120px;
+    /* background-color: #F01C21; */
+    flex-direction: column;
+    /* height: 200px; */
     padding-left: .5em;
-    
+    row-gap: 2px;
+
 
 }
-.company li {
+.f2 li {
 
     list-style:none;
     font-size: 10px;
     font-weight: 600;
     color: #fff;
+    font-family:'roboto' ;
+    font-weight: 100;
 
     
 
 }
-.company li::before { 
+.f2 li::before { 
     content: "";
     border-color: transparent #fafafa;
     border-style: solid;
